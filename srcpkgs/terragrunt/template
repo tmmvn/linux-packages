@@ -1,16 +1,15 @@
 # Template file for 'terragrunt'
 pkgname=terragrunt
-version=0.62.0
+version=0.66.8
 revision=1
 build_style=go
 go_import_path="github.com/gruntwork-io/terragrunt"
-depends="terraform"
 short_desc="Thin wrapper for Terraform that provides extra tools"
 maintainer="Andrea Brancaleoni <abc@pompel.me>"
 license="MIT"
 homepage="https://github.com/gruntwork-io/terragrunt"
 distfiles="$homepage/archive/v$version.tar.gz"
-checksum=a334c8f2c080930702b77c271c8b2d5e10b1b5f13ca5e3815772f1d16599ae0c
+checksum=c67e31f2be2bf5ce0a33744ebf963a07ff9b511d53fbcad488ff9107f364fbbf
 
 post_install() {
 	vlicense LICENSE.txt
